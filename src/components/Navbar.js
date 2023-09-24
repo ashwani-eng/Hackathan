@@ -25,7 +25,7 @@ export default function Navbar(props) {
         </ul>
         <form className="d-flex" role="search">
         <a className="nav-link active" aria-current="page" href="#" style={{float : 'left', paddingRight : '10px'}}>Team 5</a>
-          <button className="btn btn-outline-success" type="submit"><Stack direction="row" position='static'>
+          <button className="btn btn-outline-success" type="submit"><Stack direction="row" position='below'>
       <Avatar>T</Avatar>
     
     </Stack></button>
